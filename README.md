@@ -11,6 +11,9 @@ Subscribe to channel for more videos.
 * PayPal: https://paypal.me/w3w3w3
 * Bitcoin: 1EHmioBmujNAyVs5A6Uo1nfto9JZhGBDLd
 
+### Created with
+* Python 3.7 - https://www.python.org/
+
 EDUCATIONAL PURPOSES ONLY!
 Warning: Only use this software according to your current legislation. Misuse of this software can raise legal and ethical issues that I don't support nor can be held responsible for.
 
