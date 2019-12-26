@@ -2,9 +2,11 @@
 
 YouTube Tutorial: https://www.youtube.com/watch?v=ScL07VJJOX4
 
-To test the Ransomware out on your machine, 
-*Run the RSA script to generate two keys, a private and public key
-*Inside the ransomware script, edit the 'localRoot' in the script and put the absolute path to that folder.
+To test the Ransomware out on your machine,
+
+* Run the RSA script to generate two keys, a private and public key
+
+* Inside the ransomware script, edit the 'localRoot' in the script and put the absolute path to that folder.
 
 ... watch the tutoiral to understand the scripts better.
 
