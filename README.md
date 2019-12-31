@@ -4,11 +4,15 @@ YouTube Tutorial: https://www.youtube.com/watch?v=ScL07VJJOX4
 
 To test the Ransomware out on your machine,
 
-* Run the RSA script to generate two keys, a private and public key
+* edit lines 49 and 140 in the ransomware.py file with your own absolute paths etc for testing purposes and so you can use the localRoot folder
 
-* Inside the ransomware script, edit the 'localRoot' in the script and put the absolute path to that folder.
+* [ATTACKER] Run the RSA script to generate two keys, a private and public key
 
-... watch the tutoiral to understand the scripts better.
+* [TARGET] Run the ransomware script
+
+* [ATTACKER] Run the fernet key decryption file to decrypt the EMAIL_ME.txt file, this will give you a PUT_ME_ON_DESKtOP.txt file, once you put this on the desktop the ransomware will decrypt the localRoot files in that directory
+
+... watch the tutoiral to understand the scripts better. I quickly go over the scripts lightly in first 5 mins, I then run through the scripts and showcase the ransomware working etc and act the roles of the attacker/target out and show you it working etc, I then go over the scripts in more detail afterwards.
 
 
 Subscribe to channel for more videos.
