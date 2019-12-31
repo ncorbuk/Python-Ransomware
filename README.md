@@ -10,7 +10,7 @@ To test the Ransomware out on your machine,
 
 * [TARGET] Run the ransomware script
 
-* [ATTACKER] Run the fernet key decryption file to decrypt the EMAIL_ME.txt file, this will give you a PUT_ME_ON_DESKtOP.txt file, once you put this on the desktop the ransomware will decrypt the localRoot files in that directory
+* [ATTACKER] Run the fernet key decryption file to decrypt the EMAIL_ME.txt(be on your desktop) file, this will give you a PUT_ME_ON_DESKtOP.txt file, once you put this on the desktop the ransomware will decrypt the localRoot files in that directory
 
 ... watch the tutoiral to understand the scripts better. I quickly go over the scripts lightly in first 5 mins, I then run through the scripts and showcase the ransomware working etc and act the roles of the attacker/target out and show you it working etc, I then go over the scripts in more detail afterwards.
 
