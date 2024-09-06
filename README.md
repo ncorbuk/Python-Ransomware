@@ -19,7 +19,6 @@ Subscribe to channel for more videos.
 
 ## If you would like to leave a tip you can do so below, thanks 
 * PayPal: https://paypal.me/w3w3w3
-* Bitcoin: 1EHmioBmujNAyVs5A6Uo1nfto9JZhGBDLd
 
 ### Created with
 * Python 3.7 - https://www.python.org/
